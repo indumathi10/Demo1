@@ -27,6 +27,7 @@ public class ComplexJson {
 			if(title.equalsIgnoreCase("RPA")) {
 				System.out.println(js.getString("courses["+i+"].copies"));
 			}
+                      System.out.println(js.getString("courses["+i+"].copies"));
 		}
 	}
 
